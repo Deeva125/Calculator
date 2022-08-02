@@ -1,0 +1,40 @@
+input{
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.calculator{
+    margin: auto;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: black;
+    width: 450px;
+    height: 450px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+button{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: larger;
+    color: white;
+}

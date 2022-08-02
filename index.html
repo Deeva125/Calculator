@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+    <div class="inputs">
+    <input placeholder="Enter the First Number" type="number" id="num1">
+    <input placeholder="Enter the Second Number" type="number" id="num2">
+</div>
+    <div class="buttons">
+    <button onclick="addition()">+</button>
+    <button onclick="substract()">-</button>
+    <button onclick="multiply()">x</button>
+    <button onclick="divide()">÷</button>
+</div>
+    <p id="result">Result</p>
+</div>
+    <script>
+        let num1=document.getElementById("num1")
+        let num2=document.getElementById("num2")
+        let result=document.getElementById("result")
+        function addition(){
+            let first=num1.value
+            let second=num2.value
+            first=parseInt(first)
+            second=parseInt(second)
+            let answer=first+second
+            result.innerText=answer
+        }
+
+        function substract(){
+            let first=num1.value
+            let second=num2.value
+            first=parseInt(first)
+            second=parseInt(second)
+            let answer=first-second
+            result.innerText=answer
+        }
+
+        function multiply(){
+            let first=num1.value
+            let second=num2.value
+            first=parseInt(first)
+            second=parseInt(second)
+            let answer=first*second
+            result.innerText=answer
+        }
+
+        function divide(){
+            let first=num1.value
+            let second=num2.value
+            first=parseInt(first)
+            second=parseInt(second)
+            let answer=first/second
+            result.innerText=answer
+        }
+    </script>
+</body>
+</html>
